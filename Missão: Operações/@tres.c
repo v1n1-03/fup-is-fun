@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    int soma = a+b+c;
+    printf("%d\n", soma);
+    return 0;
+}
